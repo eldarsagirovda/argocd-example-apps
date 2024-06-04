@@ -4,6 +4,7 @@ metadata:
   name: helm-guestbook
   annotations:
     argocd.argoproj.io/sync-wave: "-1"
+    test: "test"
 ---
 apiVersion: v1
 kind: Namespace
